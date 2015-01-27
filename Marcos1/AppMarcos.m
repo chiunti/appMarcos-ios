@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Chiunti. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AppMarcos.h"
 
-@interface ViewController ()
+@interface AppMarcos ()
 
 @end
 
-@implementation ViewController
+@implementation AppMarcos
 
 - (void)viewDidLoad {
     [super viewDidLoad];

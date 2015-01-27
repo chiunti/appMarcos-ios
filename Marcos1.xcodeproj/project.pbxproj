@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3CC47CDD1A77314C00216598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC47CDC1A77314C00216598 /* main.m */; };
 		3CC47CE01A77314C00216598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC47CDF1A77314C00216598 /* AppDelegate.m */; };
-		3CC47CE31A77314C00216598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC47CE21A77314C00216598 /* ViewController.m */; };
+		3CC47CE31A77314C00216598 /* AppMarcos.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC47CE21A77314C00216598 /* AppMarcos.m */; };
 		3CC47CE61A77314C00216598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC47CE41A77314C00216598 /* Main.storyboard */; };
 		3CC47CE81A77314C00216598 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC47CE71A77314C00216598 /* Images.xcassets */; };
 		3CC47CEB1A77314C00216598 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CC47CE91A77314C00216598 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		3CC47CDC1A77314C00216598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CC47CDE1A77314C00216598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CC47CDF1A77314C00216598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CC47CE11A77314C00216598 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CC47CE21A77314C00216598 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CC47CE11A77314C00216598 /* AppMarcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMarcos.h; sourceTree = "<group>"; };
+		3CC47CE21A77314C00216598 /* AppMarcos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppMarcos.m; sourceTree = "<group>"; };
 		3CC47CE51A77314C00216598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CC47CE71A77314C00216598 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CC47CEA1A77314C00216598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				3CC47CDE1A77314C00216598 /* AppDelegate.h */,
 				3CC47CDF1A77314C00216598 /* AppDelegate.m */,
-				3CC47CE11A77314C00216598 /* ViewController.h */,
-				3CC47CE21A77314C00216598 /* ViewController.m */,
+				3CC47CE11A77314C00216598 /* AppMarcos.h */,
+				3CC47CE21A77314C00216598 /* AppMarcos.m */,
 				3CC47CE41A77314C00216598 /* Main.storyboard */,
 				3CC47CE71A77314C00216598 /* Images.xcassets */,
 				3CC47CE91A77314C00216598 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC47CE31A77314C00216598 /* ViewController.m in Sources */,
+				3CC47CE31A77314C00216598 /* AppMarcos.m in Sources */,
 				3CC47CE01A77314C00216598 /* AppDelegate.m in Sources */,
 				3CC47CDD1A77314C00216598 /* main.m in Sources */,
 			);
@@ -412,6 +412,7 @@
 				3CC47CFC1A77314C00216598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CC47CFD1A77314C00216598 /* Build configuration list for PBXNativeTarget "Marcos1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				3CC47CFF1A77314C00216598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
